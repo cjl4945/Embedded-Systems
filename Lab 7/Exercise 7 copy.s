@@ -470,7 +470,7 @@ InitQueue	PROC	{R0-R14}
 			BX	    LR
 			ENDP
 ;*******************************************************
-;If the queue (whose queue record structure’s address is in R1) is not empty, 
+;If the queue (whose queue record structureÂ’s address is in R1) is not empty, 
 ;dequeues  ;a character from the queue to R0 and reports success by returning with 
 ;the C flag ;cleared, (i.e., 0); otherwise only reports failure by returning with the 
 ;C flag set, (i.e., 1). 
@@ -566,7 +566,7 @@ EMPTY       PUSH    {R0,R1,R5,R6}
 DEEND		POP		{R1-R4,PC}			
 			ENDP
 ;*************************************************
-;If the queue (whose queue record structure’s address is in 
+;If the queue (whose queue record structureÂ’s address is in 
 ;R1) is not full, enqueues the character from R0 to the queue and reports success by 
 ;returning with the C flag cleared, (i.e., 0); otherwise only reports failure by 
 ;returning with the C flag set, (i.e., 1).
