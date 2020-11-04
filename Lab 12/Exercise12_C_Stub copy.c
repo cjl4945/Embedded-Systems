@@ -2,7 +2,7 @@
 /* <this game consists of ten rounds of digital value matching.  In each round, 
  the game program lights the LEDs on the Freedom board to a random combination 
 of colors from none, red, green, and both, and the user has to type the first 
-character of the color, (e.g., “r” for red)>                                   */
+character of the color, (e.g., â€œrâ€ for red)>                                   */
 /* Name:  <Chase Lewis>                                           */
 /* Date:  <4/26/19>                                           */
 /* Class:  CMPE 250                                                  */
